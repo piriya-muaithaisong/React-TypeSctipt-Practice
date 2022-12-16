@@ -5,7 +5,7 @@ import SearchBox from './components/search-box/search-box.component';
 import './App.css';
 import { getData } from './utils/data.utils';
 
-type Monster = {
+export type Monster = {
   id: string;
   name: string;
   email: string;
